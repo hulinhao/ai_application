@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AiApplication",
+            "request": "launch",
+            "mainClass": "com.example.core.AiApplication",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<spring-ai-rag-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.ai.Application",
+            "projectName": "spring-ai-rag-demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
